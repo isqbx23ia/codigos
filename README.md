@@ -1,2 +1,2 @@
-#Códigos de C e Python.
+#Códigos de exercícios em diferentes linguagens de programação.
 ---
