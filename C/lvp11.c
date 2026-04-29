@@ -11,33 +11,32 @@ MASSA INICIAL=99.99 MASSA FINAL=99.99 TEMPO DECORRIDO=99:99:99
 */
 
 
-
-
-
 #include <stdio.h>
 
 
 int main() {
 
-	float massaini, massaf, tempo,tempseg;
+	float massaini,massa2,massaf;
+    int horas,minutos,segundos,tempo;  
     
-	tempseg = 50.0;
-
+    tempo = 0;
+    
 	scanf("%f", &massaini);
-	printf("%f",massaini);
-	while (massaini > 0.5) {
+	massa2 = massaini;
+
+	while (massaini >= 0.5) {
 	    massaini = massaini/2;
 		tempo = tempo + 50.0;
-		massaf = massaini;
-		    printf("MASSA INICIAL=%.2f\n MASSA FINAL=%.2f\n TEMPO DECORRIDO=%.2f:%.2f:%.2f\n", massaini,massaf,tempo);
+		
+		    }
 
-	}
-    
+
+        horas = tempo / 3600;
+        minutos = (tempo%3600)/60;
+        segundos = tempo%60;
+
+
+    printf("MASSA INICIAL=%05.2f MASSA FINAL=%05.2f TEMPO DECORRIDO=%02d:%02d:%02d", massa2,massaini,horas,minutos,segundos);
     
 	return 0;
-
-
-
-
-
 }
