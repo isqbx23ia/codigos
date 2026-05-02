@@ -3,10 +3,11 @@
 
 
 int main() {
-  float desc, valorprod;
-  valorprod = 50.00;
-  int formapag;
+  float desc;
+  int formapag, valorprod;
   formapag = 1;
+  printf("Digite o valor do produto:\n");
+  scanf("%d", &valorprod);
   printf("Opção:\n");
   scanf("%d",&formapag);
 
@@ -17,7 +18,7 @@ int main() {
     desc = valorprod - (valorprod * 10.0 / 100.0);
     printf("Total da compra: %.2f\n", desc);
   } else if (formapag == 3) {
-    printf("Total da compra: %.2f\n", valorprod);
+    printf("Total da compra: %.2d\n", valorprod);
   } else if (formapag == 4) {
     desc = valorprod + (valorprod * 10.0 / 100.0);
     printf("Total da compra: %.2f\n", desc);
@@ -28,4 +29,5 @@ int main() {
 
 }
 
-  
+
+}
