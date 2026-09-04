@@ -2,6 +2,7 @@
 //  Faça um algoritmo que calcule
 //  e imprima na tela em quantos anos serão necessários para que Francisco seja maior que Sara.
 
+// Sara ser maior que Francisco*
 
 #include <stdio.h>
 #include <locale.h>
