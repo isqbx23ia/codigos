@@ -13,7 +13,7 @@ int main(){
     setlocale(LC_ALL, ".UTF8");
 
     int aux,cont,num,multi,soma;
-    scanf("%d", &num);
+    num = 1;
 	cont = 0;
 	multi = 0;
 	    soma = num;
@@ -59,13 +59,6 @@ int main(){
 }
 
 
-int void(){
-	main();
-	
-	
-	
-	
-	}
   
 	
 		/*while(num <= 9){
