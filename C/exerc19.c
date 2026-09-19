@@ -16,7 +16,7 @@ int main(){
 	for(num = 1; num < 11; num++){
 		for(mult = 0; mult < 11; mult++){
 			aux = num*mult;
-			printf("Tabuada: %d X %d = %d\n", num,mult,aux);
+			printf("Tabuada: %d X %d = %d\n\n", num,mult,aux);
 		}
 		
 
