@@ -6,7 +6,7 @@ int main(){
 
     int num,mult,aux;
     scanf("%d", &num);
-    for (mult = 0; mult < 11; mult++){
+    for (mult = 0; mult < 100; mult++){
         aux=num*mult;
         printf("Tabuada do %d X %d = %d\n", num,mult,aux);
 
