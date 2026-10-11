@@ -6,8 +6,8 @@
 int main(){
 
 
-
     int num;
+    rand();
     num = rand();
     printf("%d\n", num);
     printf("O número aleatório é: %d", num);
