@@ -4,7 +4,7 @@
 //incompleto
 double metodobabilonico(double num){
     double aprox = num;
-    doublo erro;
+    double erro;
     if (num == 0)
 
 }
